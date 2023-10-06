@@ -7,12 +7,12 @@ import {
 //pages
 import Home from './pages/Home';
 import About from './pages/About';
+import Faq from './pages/help/Faq';
+import Contact from './pages/help/Contact';
 
 //layouts
 import RootLayout from './layouts/RootLayout';
 import HelpLayout from './layouts/HelpLayout';
-import Faq from './pages/help/Faq';
-import Contact from './pages/help/Contact';
 
 const router =  createBrowserRouter(
   createRoutesFromElements(
