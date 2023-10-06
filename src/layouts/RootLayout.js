@@ -15,6 +15,10 @@ function RootLayout() {
             <main>
                 <Outlet />
             </main>
+
+            <footer>
+                <NavLink to='help'>Help</NavLink>
+            </footer>
         </div>
     )
 }
